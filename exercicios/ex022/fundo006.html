@@ -3,18 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url(imagens/wallpaper002.jpg); background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+
+            /* Shorthand - background
+               color > image > position > repeat > [size] > attachment
+               */
+
+               background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+               background-size: cover;
         }
+        
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -26,7 +35,7 @@
 <body>
   <main>
     <h1>Teste de Imagem de Fundo</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptatibus dolore, unde est consequatur porro odio. Perspiciatis minus fugit officiis laborum saepe deleniti illum totam, sed vel hic recusandae eum? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae minus earum, aperiam porro in vel velit, ipsum sequi harum quis tempore doloremque magnam recusandae sapiente dicta nam sint explicabo ea. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus facere inventore dolore voluptatibus corrupti cupiditate nihil sit eligendi minima error perferendis nobis odio, quo, non doloribus nulla cum, maiores impedit.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptatibus dolore, unde est consequatur porro odio. Perspiciatis minus fugit officiis laborum saepe deleniti illum totam, sed vel hic recusandae eum? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae minus earum, aperiam porro in vel velit, ipsum sequi harum quis tempore doloremque magnam recusandae sapiente dicta nam sint explicabo ea. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus facere inventore dolore voluptatibus corrupti cupiditate nihil sit eligendi minima error perferendis nobis odio, quo, non doloribus nulla cum, maiores impedit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto at reprehenderit voluptate doloribus! Laudantium voluptates vero ratione iure aspernatur temporibus quibusdam doloribus reprehenderit, harum ducimus rerum perspiciatis alias illo similique? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aut, cum, laborum rerum debitis repellendus quod voluptas magni totam perferendis, iure neque voluptatibus assumenda consectetur. Natus magni excepturi ad aliquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, laboriosam perferendis quisquam enim suscipit a alias minus nam eveniet commodi aliquid optio magni? Reprehenderit deleniti quos natus necessitatibus laborum iure! Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt unde enim ad labore, consectetur tempore alias rem voluptates debitis animi, nam, quas laborum ex corrupti. Est quia voluptas cum quasi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, at dolorum cupiditate quisquam nesciunt, aspernatur fuga obcaecati exercitationem vitae neque eveniet error. Earum iusto aspernatur, fugiat incidunt minus consectetur corporis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, cum eos? Unde laborum iste quibusdam id ad, nam saepe eius, voluptatum praesentium nisi deleniti, ab odit esse obcaecati maxime? Aspernatur Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur rerum, sapiente delectus, eaque totam commodi voluptatibus repellendus voluptas molestiae nemo illo sit, nesciunt asperiores praesentium iste dicta excepturi hic consectetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum optio dolor, nesciunt commodi dignissimos dolorem veniam quaerat, illum architecto at iure magni necessitatibus vitae doloribus amet, id temporibus porro ad??</p>
   </main>  
 </body>
 </html>
